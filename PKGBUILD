@@ -1,12 +1,12 @@
 pkgname=vivaldi-ffmpeg
-pkgver=50.0.2661.102
+pkgver=51.0.2704.65
 pkgrel=1
 pkgdesc='Additional support for proprietary codecs for vivaldi.'
 arch=('x86_64')
 url="https://ffmpeg.org/"
 license=('LGPL2.1')
 source=("http://repo.herecura.eu/herecura/x86_64/${pkgname}-codecs-${pkgver}-1-x86_64.pkg.tar.xz")
-md5sums=('88234b0cbfaa321541ec39bb4f9a8de6')
+md5sums=('7d903cebdd1b62584ed1e64614a28f70')
 
 package() {
   cd opt/vivaldi
